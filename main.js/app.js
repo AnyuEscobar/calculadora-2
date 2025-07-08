@@ -2,7 +2,8 @@
 const botones = document.querySelectorAll("button");
 const $result = document.getElementById("result")
 const $pantalla = document.getElementById("pantalla")
-
+const $borrar = document.getElementById("borrar")
+const $dividir = document.getElementById("division")
 //declaracion de function arrow
 
 let suma = (n1, n2) => {
@@ -52,6 +53,7 @@ botones.forEach(function (boton) {
     }
 
     // 3. Si es el botón igual
+    console.log("n1:", n1, "n2:", n2, "operador:", operador)
     if (valor === "=") {
       const numero1 = Number(n1)
       const numero2 = Number(n2)

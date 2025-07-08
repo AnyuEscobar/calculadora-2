@@ -1,26 +1,7 @@
-// declaracion del DOM
-const $form = document.getElementById("form")
-const $one = document.getElementById("one")
-const $two = document.getElementById("two")
-const $three = document.getElementById("three")
-const $four = document.getElementById("four")
-const $five = document.getElementById("five")
-const $six = document.getElementById("six")
-const $seven = document.getElementById("seven")
-const $eight = document.getElementById("eight")
-const $nine = document.getElementById("nine")
-const $zero = document.getElementById("zero")
-const $mas = document.getElementById("mas")
-const $menos = document.getElementById("menos")
-const $division = document.getElementById("division")
-const $multiplicacion = document.getElementById("multiplicacion")
-const $borrar = document.getElementById("borrar")
-const igual = document.getElementById("igual")
+// declaracion del DOM 
 const botones = document.querySelectorAll("button");
-$result = document.getElementById("result")
-$pantalla = document.getElementById("pantalla")
-
-
+const $result = document.getElementById("result")
+const $pantalla = document.getElementById("pantalla")
 
 //declaracion de function arrow
 
